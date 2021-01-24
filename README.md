@@ -45,6 +45,9 @@ You should be able to get the result
 {"Gender": "female"}
 ```
 
+
+
+
 If you want to get the prediction on local machine, you can try follow steps to predict the gender with a first name.
 
 1. Clone the Repo to your destination: 
@@ -83,10 +86,14 @@ import genderPredictor
 print(genderPredictor.genderPredict('YourName')
 ```
 
+
+
 ## Dataset and Model
 If you want to know more about the dataset and how the model is built. 
 
 You can refer to the jupyter notebook in the data folder. 
+
+
 
 ## Contact:
 For any kind of comments/suggestions regarding improving accuracy/performance of the model. 
