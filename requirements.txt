@@ -1,0 +1,14 @@
+Django
+joblib
+Keras
+Keras-Applications
+Keras-Preprocessing
+keras-squeezenet
+numpy
+pandas
+scikit-learn
+sklearn
+tensorboard
+tensorboard-plugin-wit
+tensorflow
+tensorflow-estimator
