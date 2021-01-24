@@ -28,7 +28,7 @@ You can get the gender prediction by calling the API below on your browser.
 http://localhost:8000/gender_recognition/predict_gender?name=Jason
 ```
 
-You should be able to get the result similar to
+You should be able to get the result
 
 ```
 {"Gender": "male"}
