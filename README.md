@@ -1,4 +1,4 @@
-## Introduction:
+## Introduction
 
 Predict person's gender using English first name.
 
