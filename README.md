@@ -46,7 +46,7 @@ You should be able to get the result
 ```
 
 
-
+---
 
 If you want to get the prediction on local machine, you can try follow steps to predict the gender with a first name.
 
