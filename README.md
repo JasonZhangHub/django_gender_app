@@ -22,7 +22,7 @@ After successfully building the Django app, you can then run
 python manage.py runserver 0.0.0.0:8000
 ```
 
-You can get the gender prediction by calling the API below on your browser.
+You can get the gender prediction by calling the API below on your browser, such as Jason
 
 ```
 http://localhost:8000/gender_recognition/predict_gender?name=Jason
@@ -32,13 +32,20 @@ You should be able to get the result
 
 ```
 {"Gender": "male"}
+
 ```
 or
+```
+http://localhost:8000/gender_recognition/predict_gender?name=Hannah
+```
+
+You should be able to get the result
+
 ```
 {"Gender": "female"}
 ```
 
-If you want to run on local machine, you can try follow steps to predict the gender with a first name.
+If you want to get the prediction on local machine, you can try follow steps to predict the gender with a first name.
 
 1. Clone the Repo to your destination: 
 
@@ -75,6 +82,11 @@ cd path/gender_recognition
 import genderPredictor
 print(genderPredictor.genderPredict('YourName')
 ```
+
+## Dataset and Model
+If you want to know more about the dataset and how the model is built. 
+
+You can refer to the jupyter notebook in the data folder. 
 
 ## Contact:
 For any kind of comments/suggestions regarding improving accuracy/performance of the model. 
