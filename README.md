@@ -5,13 +5,46 @@ Predict person's gender using English first name.
 
 ## Get Started
 
+If you want to run the Django app, 
+
+1. Clone the Repo to your destination: 
+
+```
+cd my/dir
+git clone https://github.com/JasonZhangHub/django_gender_app.git
+```
+
+2. Build the Django app in Docker Container
+
+After successfully building the Django app, you can then run
+
+```
+python manage.py runserver 0.0.0.0:8000
+```
+
+You can get the gender prediction by calling the API below on your browser.
+
+```
+http://localhost:8000/gender_recognition/predict_gender?name=Jason
+```
+
+You should be able to get the result similar to
+
+```
+{"Gender": "male"}
+```
+or
+```
+{"Gender": "female"}
+```
+
 If you want to run on local machine, you can try follow steps to predict the gender with a first name.
 
 1. Clone the Repo to your destination: 
 
 ```
 cd my/dir
-git clone https://github.com/JasonZhangHub/genderPredictor.git
+git clone https://github.com/JasonZhangHub/django_gender_app.git
 ```
 
 2. Setup your virtual environment and activate
@@ -35,24 +68,12 @@ or
 pip install -r requirements.txt
 ```
 
-4. Run the model
+4. Run the prediction model
 
 ```
-cd gender_recognition/genderPredictor
+cd path/gender_recognition
 import genderPredictor
-print(genderPredictor.genderPredict('name')
-```
-
-Else, you can run the Django app in Docker
-
-```
-python manage.py runserver 0.0.0.0:8000
-```
-
-You can get the gender prediction by calling the API below on your browser.
-
-```
-http://localhost:8000/gender_recognition/predict_gender?name=Jason
+print(genderPredictor.genderPredict('YourName')
 ```
 
 ## Contact:
