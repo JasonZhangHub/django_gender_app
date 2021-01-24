@@ -5,6 +5,10 @@ Predict person's gender using English first name.
 
 ## Get Started
 
+We are using VS code + Docker to develop this application. 
+
+So the configuration files in the folder .devcontainer are used for the development container.
+
 If you want to run the Django app, 
 
 1. Clone the Repo to your destination: 
